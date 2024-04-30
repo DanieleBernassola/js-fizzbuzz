@@ -24,3 +24,8 @@ In conclusione,
     } Altrimenti {
         console.log(indice);
     }
+
+<!-- BONUS 1: -->
+<!-- Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare. -->
+
+ - converto l'indice in una variabile che verrà appesa nel file HTML
