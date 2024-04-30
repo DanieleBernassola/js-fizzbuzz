@@ -15,12 +15,12 @@
  - per ogni numero verifichiamo che, se diviso per 3 e per 5, il resto sia 0. In tal caso stampiamo "FizzBuzz"
 
 In conclusione,
-    SE (numero % 3 = 0 && numero % 5 = 0){
+    SE (indice % 3 = 0 && indice % 5 = 0){
         console.log('FizzBuzz');
-    } Altrimenti SE (numero % 3 = 0){
+    } Altrimenti SE (indice % 3 = 0){
         console.log('Fizz');
-    } Altrimenti SE (numero % 5 = 0){
+    } Altrimenti SE (indice % 5 = 0){
         console.log('Buzz');
     } Altrimenti {
-        console.log(numero);
+        console.log(indice);
     }
